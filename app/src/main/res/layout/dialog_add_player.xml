@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom du joueur">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/playerNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:maxLength="15"
+            android:inputType="textPersonName" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnOk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:backgroundTint="@color/btn"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
